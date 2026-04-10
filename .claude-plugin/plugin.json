@@ -1,0 +1,28 @@
+{
+  "name": "veille-techno",
+  "version": "1.0.0",
+  "description": "Veille tech francophone pour developpeurs. Agrege les flux RSS tech FR (Journal du Hacker, Human Coders News, etc.) et produit un recap des articles recents trie par jour.",
+  "author": {
+    "name": "CamilleRoux",
+    "url": "https://github.com/CamilleRoux"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/CamilleRoux/veille-techno",
+  "repository": "https://github.com/CamilleRoux/veille-techno",
+  "keywords": [
+    "veille",
+    "rss",
+    "tech",
+    "francophone",
+    "news",
+    "developpeurs",
+    "french",
+    "claude-code",
+    "skill",
+    "claude",
+    "developer-tools",
+    "french-tech",
+    "aggregator",
+    "feed-reader"
+  ]
+}

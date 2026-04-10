@@ -1,0 +1,41 @@
+name: Bug report
+description: Signaler un probleme avec le skill /veille
+labels: ["bug"]
+body:
+  - type: input
+    id: os
+    attributes:
+      label: Systeme d'exploitation
+      placeholder: "macOS 15, Ubuntu 24.04..."
+    validations:
+      required: true
+
+  - type: input
+    id: python
+    attributes:
+      label: Version Python
+      placeholder: "3.12"
+    validations:
+      required: true
+
+  - type: input
+    id: command
+    attributes:
+      label: Commande executee
+      placeholder: "/veille 7"
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Message d'erreur
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexte supplementaire
+      description: Tout detail utile pour reproduire le probleme.

@@ -1,0 +1,28 @@
+name: Feature request
+description: Proposer une amelioration ou une nouvelle source
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type de proposition
+      options:
+        - Nouvelle source RSS
+        - Amelioration du skill
+        - Autre
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Decrivez votre proposition. Pour une source, indiquez le nom, l'URL du flux RSS et une description courte.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexte
+      description: Pourquoi cette proposition serait utile ?
