@@ -11,3 +11,8 @@ sources:
     url: https://news.humancoders.com/items/feed.rss
     site: https://news.humancoders.com
     description: Actualités dev collaboratives par et pour les développeurs
+
+  - name: Dépêches LinuxFr.org
+    url: https://linuxfr.org/news.atom
+    site: https://linuxfr.org/
+    description: Actualités du Libre et Open Source 
