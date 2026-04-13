@@ -2,15 +2,15 @@
 # Ajouter une source : copier un bloc ci-dessous avec name + url
 
 sources:
-  - name: Journal du Hacker
-    url: https://www.journalduhacker.net/rss
-    site: https://www.journalduhacker.net
-    description: Agrégateur communautaire de news tech francophones
-
   - name: Human Coders News
     url: https://news.humancoders.com/items/feed.rss
     site: https://news.humancoders.com
     description: Actualités dev collaboratives par et pour les développeurs
+
+  - name: Journal du Hacker
+    url: https://www.journalduhacker.net/rss
+    site: https://www.journalduhacker.net
+    description: Agrégateur communautaire de news tech francophones
 
   - name: Dépêches LinuxFr.org
     url: https://linuxfr.org/news.atom
