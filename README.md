@@ -158,6 +158,10 @@ Les contributions sont les bienvenues ! Voir [CONTRIBUTING.md](CONTRIBUTING.md) 
 
 En bref : pour ajouter une source, ouvrez une PR modifiant `skills/veille/sources.yml`.
 
+## English version
+
+Looking for an English-language version? Check out [/digest](https://github.com/CamilleRoux/tech-digest) — the same skill aggregating Hacker News, Lobste.rs and more.
+
 ## Auteur
 
 Créé par [Camille Roux](https://www.camilleroux.com) -- développeur, entrepreneur et passionné de veille tech.
